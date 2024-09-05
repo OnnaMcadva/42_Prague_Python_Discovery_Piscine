@@ -3,16 +3,16 @@
 import sys
 
 if len(sys.argv) != 2:
-    print("\033[38;5;227m" + "none")
+    print("\033[38;5;227mnone")
 else:
     parameter = sys.argv[1]
     
-    user_input = input("\033[38;5;051m" + "What was the parameter? " + "\033[38;5;206m")
+    user_input = input("\033[38;5;051mWhat was the parameter? " + "\033[38;5;206m")
     
     if user_input == parameter:
-        print("\033[38;5;222m" + "Good job!")
+        print("\033[38;5;222mGood job!")
     else:
-        print("\033[38;5;118m" + "Nope, sorry...")
+        print("\033[38;5;118mNope, sorry...")
 
 # ?> ./parameter_matching.py
 # none
