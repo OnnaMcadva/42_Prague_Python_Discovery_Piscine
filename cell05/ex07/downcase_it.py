@@ -3,7 +3,7 @@
 import sys
 
 if len(sys.argv) != 2:
-    print("\033[38;5;219mnone")
+    print("\033[38;5;222mnone")
 else:
     print("\033[38;5;219m" + sys.argv[1].lower())
 
