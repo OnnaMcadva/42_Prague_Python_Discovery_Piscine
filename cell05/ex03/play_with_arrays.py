@@ -2,9 +2,15 @@
 
 original_array = [2, 8, 9, 48, 8, 22, -12, 2]
 
-new_array = {x + 2 for x in original_array if x > 5}
+# new_array = [x + 2 for x in original_array if x > 5]
 
-unique_values = set(new_array)
+# unique_values = set(new_array)
+
+# print("\033[38;5;051mOriginal array:", original_array)
+# print("\033[38;5;118mNew array:", unique_values)
+
+
+new_array = {x + 2 for x in original_array if x > 5}
 
 print("\033[38;5;051mOriginal array:", original_array)
 print("\033[38;5;118mNew array:", new_array)
