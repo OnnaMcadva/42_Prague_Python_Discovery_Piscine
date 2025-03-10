@@ -19,4 +19,4 @@ hello()
 # Search for "method definition in Python".
 
 
-/* chmod +x hello_all.py */
+# chmod +x hello_all.py
