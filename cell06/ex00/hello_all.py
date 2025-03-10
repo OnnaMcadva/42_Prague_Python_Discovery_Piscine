@@ -17,3 +17,6 @@ hello()
 # Hello, everyone!
 # ?>
 # Search for "method definition in Python".
+
+
+/* chmod +x hello_all.py */
