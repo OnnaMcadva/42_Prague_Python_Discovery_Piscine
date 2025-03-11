@@ -11,4 +11,10 @@ else:
     print("ACCESS DENIED")
 
 
+# Функция getpass.getpass() в Python используется для безопасного ввода пароля без отображения введенных символов в консоли.
+
 # getpass()
+# import getpass
+
+# password = getpass.getpass("Введите пароль: ")
+# print(f"Ваш пароль: {password}")  # Не делай так в реальном коде! 🤦‍♂️
